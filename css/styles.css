@@ -454,17 +454,8 @@ background-color: var(--cloud-color);
 }
 
 .customers-item {
-  border-radius: 4px;
-  border: 1px solid var(--lightslate, #8E8F99);
   height: 88px;
-  width: calc((100% - 120px) / 6);
-  display: flex;
-  justify-content: center;
-  }
-
-.customers-item:hover,
-.customer-item:focus {
-  border: 1px solid var(--ocean-color);
+  width: calc((100% - 120px) / 6); 
 }
 
 .customers-icon {
