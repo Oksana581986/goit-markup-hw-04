@@ -641,9 +641,7 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .card-item {
   width: calc((100% - 48px) / 3);
-  overflow: hidden;
-  position: relative;
- }
+}
 
  .card-link {
   display: block;
@@ -691,12 +689,10 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   font-weight: 400;
 }
 
-.card-item:hover .project-card-cover {
+.card-link:hover .project-card-cover,
+.card-link:focus .project-card-cover
+{
   transform: translateY(0);
-}
-
-.card-item:hover {
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .box-card {
